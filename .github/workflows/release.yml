@@ -2,6 +2,7 @@ name: Release
 
 on:
   push:
+    branches: [win-arm64-test]
     tags:
       - "[0-9]+.[0-9]*"
   workflow_dispatch:
